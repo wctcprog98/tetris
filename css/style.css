@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 10; 
+    padding: 10;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
