@@ -4,7 +4,10 @@ body {
     padding: 10;
 }
 
-.square {
+.container {
+    display: flex;
+}
+.grid div {
     width: 20px;
     height: 20px;
 }
@@ -20,4 +23,19 @@ body {
 .tetromino {
     background-color: blue;
 }
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
 
